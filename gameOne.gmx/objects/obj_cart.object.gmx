@@ -431,7 +431,6 @@ obj_cerealcheck.visible = false;
 grab.direction = image_angle+90;
 grab.image_angle = image_angle+90;
 grab.speed = 15;
-
 </string>
           </argument>
         </arguments>
