@@ -55,7 +55,7 @@ global.cereal = 1;
           <argument>
             <kind>1</kind>
             <string>draw_set_color(c_red);
-draw_text_transformed(900,32,global.points, 2, 2, 0)
+draw_text_transformed(1100,32,global.points, 2, 2, 0)
 </string>
           </argument>
         </arguments>

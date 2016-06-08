@@ -243,9 +243,9 @@ if (speed &gt; 6) {
             <string>speed = speed;
 
 if(keyboard_check(vk_down)){
-    image_angle+=4;
+    image_angle+=5;
 } else {
-    image_angle-=4;
+    image_angle-=5;
 }
 
 </string>
@@ -271,7 +271,7 @@ if(keyboard_check(vk_down)){
           <argument>
             <kind>1</kind>
             <string>motion_add(image_angle+90, 2);
-if (speed &gt; 10) speed = 10;
+if (speed &gt; 13) speed = 13;
 
     
 </string>
@@ -299,9 +299,9 @@ if (speed &gt; 10) speed = 10;
             <string>speed = speed;
 
 if(keyboard_check(vk_down)){
-    image_angle-=4;
+    image_angle-=5;
 } else {
-    image_angle+=4;
+    image_angle+=5;
 }
 
 </string>

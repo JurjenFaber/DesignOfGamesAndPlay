@@ -51,7 +51,7 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_color(c_red);
-draw_text_transformed(900,64,global.health, 2, 2, 0)
+draw_text_transformed(1100,64,global.health, 2, 2, 0)
 </string>
           </argument>
         </arguments>
