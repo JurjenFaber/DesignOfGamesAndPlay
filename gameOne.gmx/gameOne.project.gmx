@@ -56,7 +56,6 @@
     <object>objects\obj_shelf1</object>
     <object>objects\obj_start</object>
     <object>objects\obj_counter</object>
-    <object>objects\obj_grab</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_bananackeck</object>
     <object>objects\obj_carrotscheck</object>
