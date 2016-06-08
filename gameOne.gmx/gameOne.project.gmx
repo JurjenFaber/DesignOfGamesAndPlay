@@ -83,6 +83,7 @@
     <object>objects\obj_startmenu</object>
     <object>objects\obj_welldone</object>
     <object>objects\obj_gameover</object>
+    <object>objects\obj_groceries</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
