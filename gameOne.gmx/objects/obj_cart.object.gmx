@@ -327,11 +327,26 @@ if(keyboard_check(vk_down)){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>grab = instance_create(x, y, obj_grab);
+            <string>var radianAngle = degtorad(image_angle-90);
 
-grab.direction = image_angle+90;
-grab.image_angle = image_angle+90;
-grab.speed = 15;
+var xLeft = x + (50*sin(radianAngle));
+var yLeft = y + (50*cos(radianAngle));
+
+var xRight = x + (x - xLeft);
+var yRight = y + (y - yLeft);
+
+show_debug_message(xLeft);
+show_debug_message(xRight);
+show_debug_message(yLeft);
+show_debug_message(yRight);
+show_debug_message(image_angle);
+
+var inst;
+inst = collision_rectangle(xLeft, yLeft, xRight, yRight, obj_groceries, false, true)
+if inst != noone
+   {
+   with (inst) instance_destroy();
+   }
 </string>
           </argument>
         </arguments>
