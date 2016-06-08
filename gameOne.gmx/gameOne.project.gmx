@@ -38,6 +38,7 @@
     <sprite>sprites\spr_leaderboards</sprite>
     <sprite>sprites\spr_startmenu</sprite>
     <sprite>sprites\spr_gameover</sprite>
+    <sprite>sprites\sprite29</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>

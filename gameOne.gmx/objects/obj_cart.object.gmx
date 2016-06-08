@@ -271,8 +271,9 @@ if(keyboard_check(vk_down)){
           <argument>
             <kind>1</kind>
             <string>motion_add(image_angle+90, 2);
-if (speed &gt; 13) speed = 13;
-
+if (speed &gt; 13){ 
+    speed = 13;
+}
     
 </string>
           </argument>
