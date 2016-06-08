@@ -3,36 +3,11 @@
   <spriteName>spr_cart</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="3" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>while(global.time &gt; 0){
-    global.time-=(1/60);
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="4" ename="obj_cereal">
       <action>
         <libid>1</libid>
@@ -142,8 +117,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>motion_set(0,0);
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -197,26 +171,6 @@
     <event eventtype="4" ename="obj_solidshelf1">
       <action>
         <libid>1</libid>
-        <id>721</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_health</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>-1</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>-1</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -231,7 +185,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>motion_set(0, 0);
+            <string>speed=speed*0.5;
+global.health-=1;
+
+//if(global.health = 0){
+//    game_restart();
+//}
 </string>
           </argument>
         </arguments>
@@ -254,9 +213,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>motion_add(image_angle-90, 4);
-if (speed &gt; 4) speed = 4
-
+            <string>motion_add(image_angle-90, 2);
+if (speed &gt; 6) {
+    speed = 6;
+}
     
 </string>
           </argument>
@@ -280,8 +240,14 @@ if (speed &gt; 4) speed = 4
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_angle-=3;
-speed = speed;
+            <string>speed = speed;
+
+if(keyboard_check(vk_down)){
+    image_angle+=4;
+} else {
+    image_angle-=4;
+}
+
 </string>
           </argument>
         </arguments>
@@ -304,8 +270,8 @@ speed = speed;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>motion_add(image_angle+90, 6);
-if (speed &gt; 6) speed = 6;
+            <string>motion_add(image_angle+90, 2);
+if (speed &gt; 10) speed = 10;
 
     
 </string>
@@ -330,79 +296,13 @@ if (speed &gt; 6) speed = 6;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_angle+=3;
-speed = speed;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="7" enumb="9">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>game_restart();
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="7" enumb="2">
-      <action>
-        <libid>1</libid>
-        <id>721</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_health</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>100</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>obj_bananackeck.visible = false;
-obj_carrotscheck.visible = false;
-obj_ketchupcheck.visible = false;
-obj_mustardcheck.visible = false;
-obj_breadcheck.visible = false;
-obj_cerealcheck.visible = false;
+            <string>speed = speed;
+
+if(keyboard_check(vk_down)){
+    image_angle-=4;
+} else {
+    image_angle+=4;
+}
 
 </string>
           </argument>

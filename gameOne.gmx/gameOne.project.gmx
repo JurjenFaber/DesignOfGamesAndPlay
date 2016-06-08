@@ -69,7 +69,7 @@
     <object>objects\obj_ketchupcheck</object>
     <object>objects\obj_mustardcheck</object>
     <object>objects\obj_cerealcheck</object>
-    <object>objects\obj_time</object>
+    <object>objects\obj_health</object>
     <object>objects\obj_back</object>
     <object>objects\obj_bgm_ingame</object>
     <object>objects\obj_bgm_mainmenu</object>

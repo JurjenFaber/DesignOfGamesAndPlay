@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.time = 100;
+            <string>global.health = 200
 
 
 </string>
@@ -51,7 +51,7 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_color(c_red);
-draw_text_transformed(900,64,global.time, 2, 2, 0)
+draw_text_transformed(900,64,global.health, 2, 2, 0)
 </string>
           </argument>
         </arguments>
