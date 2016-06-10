@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>rm_gameover</room>
+            <room>rm_level3</room>
           </argument>
         </arguments>
       </action>

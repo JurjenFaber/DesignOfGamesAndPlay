@@ -28,6 +28,16 @@
             <string>//Find the object that has been picked
 pick = object_get_name(object_index);
 
+//Find the level
+roomname = room_get_name(room);
+
+
+
+show_debug_message(roomname);
+show_debug_message(pick);
+
+
+
 switch (pick){    
     case "obj_banana":
         global.bananas-=1;
@@ -41,14 +51,32 @@ switch (pick){
         }
     break;
     case "obj_carrots":
-        global.carrots-=1;
-        if(global.carrots = 0){
-            global.points+=500;
-            obj_carrotscheck.visible = true;
-        } else if(global.carrots &lt; 0 ){
-            global.points-=250;
-        } else {
-            global.points+=500;
+        switch (roomname){
+            case "rm_level1":
+                global.carrots1-=1;
+                show_debug_message(global.carrots1);
+                if(global.carrots1 = 0){
+                    global.points+=500;
+                    obj_carrotscheck.visible = true;
+                } else if(global.carrots1 &lt; 0 ){
+                    global.points-=250;
+                } else {
+                    global.points+=500;
+                }
+            break;
+            case "rm_level3":
+                global.carrots3-=1;
+                show_debug_message(global.carrots3);                
+                if(global.carrots3 = 0){
+                    global.points+=500;
+                    obj_carrotscheck.visible = true;
+                } else if(global.carrots3 &lt; 0 ){
+                    global.points-=250;
+                } else {
+                    global.points+=500;
+                }
+            break;
+            default: show_debug_message("not found");
         }
     break;
     case "obj_bread":

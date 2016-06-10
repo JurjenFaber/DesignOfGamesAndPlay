@@ -32,6 +32,8 @@ global.bread = 3;
 global.ketchup = 0;
 global.mustard = 0;
 global.cereal = 1;
+global.carrots1 = 2;
+global.carrots3 = 3;
 </string>
           </argument>
         </arguments>

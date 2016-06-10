@@ -94,6 +94,7 @@
     <room>rooms\rm_options</room>
     <room>rooms\rm_welldone</room>
     <room>rooms\rm_gameover</room>
+    <room>rooms\rm_level3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
