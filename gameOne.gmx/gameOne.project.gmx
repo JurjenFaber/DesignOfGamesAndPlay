@@ -61,6 +61,7 @@
     <object>objects\obj_carrotscheck</object>
     <object>objects\obj_carrots</object>
     <object>objects\obj_score</object>
+    <object>objects\obj_score3</object>
     <object>objects\obj_bread</object>
     <object>objects\obj_ketchup</object>
     <object>objects\obj_mustard</object>

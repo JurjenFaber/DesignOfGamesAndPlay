@@ -25,15 +25,22 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.points = 0;
-global.carrots = 2;
+            <string>global.points1 = 0;
+global.points3 = 0;
+
+//level 1
+global.carrots1 = 2;
 global.bananas = 1;
-global.bread = 3;
+global.bread1 = 3;
 global.ketchup = 0;
 global.mustard = 0;
 global.cereal = 1;
-global.carrots1 = 2;
-global.carrots3 = 3;
+
+
+//level 2
+global.carrots3 = 1;
+global.bread3 = 1;
+
 </string>
           </argument>
         </arguments>
@@ -57,7 +64,7 @@ global.carrots3 = 3;
           <argument>
             <kind>1</kind>
             <string>draw_set_color(c_red);
-draw_text_transformed(1100,32,global.points, 2, 2, 0)
+draw_text_transformed(1100,32,global.points1, 2, 2, 0)
 </string>
           </argument>
         </arguments>
