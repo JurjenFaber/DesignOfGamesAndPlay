@@ -78,7 +78,6 @@ global.mustard = 0;</code>
     <instance objName="obj_solidshelf1" x="416" y="448" name="inst_7DE3CAB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_solidshelf1" x="640" y="448" name="inst_63AB5EF5" locked="0" code="" scaleX="1" scaleY="1.33000004291534" colour="4294967295" rotation="90"/>
     <instance objName="obj_solidshelf1" x="800" y="512" name="inst_DCA30D4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_counter" x="1088" y="640" name="inst_A9EE4004" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_carrots" x="288" y="448" name="inst_45ABBD3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_carrots" x="352" y="448" name="inst_EB5EA607" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_carrots" x="416" y="448" name="inst_E568D380" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -93,7 +92,7 @@ global.mustard = 0;</code>
     <instance objName="obj_bread" x="736" y="448" name="inst_507FDBE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_breadcheck" x="576" y="544" name="inst_3EB777B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_health" x="1056" y="64" name="inst_45DC0F90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bananackeck" x="384" y="544" name="inst_E7EF9C77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bananacheck" x="384" y="544" name="inst_E7EF9C77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_score" x="1056" y="32" name="inst_F3A3D9DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_time" x="1056" y="96" name="inst_F40EE0A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
