@@ -85,6 +85,8 @@
     <object>objects\obj_groceries</object>
     <object>objects\obj_highscores</object>
     <object>objects\obj_time</object>
+    <object>objects\obj_levelscore</object>
+    <object>objects\obj_totalscore</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>

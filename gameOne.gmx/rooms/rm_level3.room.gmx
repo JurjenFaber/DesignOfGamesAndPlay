@@ -11,6 +11,8 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>global.points = 0;
+global.levelscore = 0;
+global.totalscore = 0;
 global.health = 200;
 
 global.time = 0;
