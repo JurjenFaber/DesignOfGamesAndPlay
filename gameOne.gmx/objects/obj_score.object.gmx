@@ -30,7 +30,7 @@ global.points3 = 0;
 
 //level 1
 global.carrots1 = 2;
-global.bananas = 1;
+global.bananas1 = 1;
 global.bread1 = 3;
 global.ketchup = 0;
 global.mustard = 0;
@@ -40,6 +40,7 @@ global.cereal = 1;
 //level 2
 global.carrots3 = 1;
 global.bread3 = 1;
+global.bananas3 = 1;
 
 </string>
           </argument>

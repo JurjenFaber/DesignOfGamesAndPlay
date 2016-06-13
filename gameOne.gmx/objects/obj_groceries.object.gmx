@@ -39,7 +39,7 @@ show_debug_message(pick);
 
 
 switch (pick){    
-    case "obj_banana":
+    /*case "obj_banana":
         global.bananas-=1;
         if(global.bananas = 0){
             global.points1+=500;
@@ -48,6 +48,35 @@ switch (pick){
             global.points1-=250;
         } else {
             global.points1+=500;
+        }
+    break;*/
+    case "obj_banana":
+        switch (roomname){
+            case "rm_level1":
+                global.bananas1-=1;
+                show_debug_message(global.bananas1);
+                if(global.bananas1 = 0){
+                    global.points1+=500;
+                    obj_bananackeck.visible = true;
+                } else if(global.bananas1 &lt; 0 ){
+                    global.points1-=250;
+                } else {
+                    global.points1=500;
+                }
+            break;
+            case "rm_level3":
+                global.bananas3-=1;
+                show_debug_message(global.bananas3);                
+                if(global.bananas3 = 0){
+                    global.points3+=500;
+                    obj_bananackeck.visible = true;
+                } else if(global.bananas3 &lt; 0 ){
+                    global.points3-=250;
+                } else {
+                    global.points3+=500;
+                }
+            break;
+            default: show_debug_message("not found");
         }
     break;
     case "obj_carrots":
