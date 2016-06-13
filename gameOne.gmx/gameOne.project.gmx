@@ -84,6 +84,7 @@
     <object>objects\obj_gameover</object>
     <object>objects\obj_groceries</object>
     <object>objects\obj_time</object>
+    <object>objects\obj_levelscore</object>
     <object>objects\obj_totalscore</object>
   </objects>
   <rooms name="rooms">
