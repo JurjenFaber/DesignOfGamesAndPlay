@@ -82,19 +82,35 @@ global.mustard = 0;</code>
     <instance objName="obj_carrots" x="352" y="448" name="inst_EB5EA607" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_carrots" x="416" y="448" name="inst_E568D380" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_carrots" x="480" y="448" name="inst_B67CE7FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_banana" x="576" y="192" name="inst_706F7CC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_banana" x="640" y="192" name="inst_96978AF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_banana" x="704" y="192" name="inst_0ADE5559" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_carrotscheck" x="480" y="544" name="inst_F91F6513" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bread" x="544" y="448" name="inst_CCDF7D3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_banana" x="544" y="192" name="inst_706F7CC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_banana" x="608" y="192" name="inst_96978AF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_banana" x="672" y="192" name="inst_0ADE5559" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_carrotscheck" x="1168" y="288" name="inst_F91F6513" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bread" x="608" y="448" name="inst_23BB9982" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bread" x="672" y="448" name="inst_B3C0A429" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bread" x="736" y="448" name="inst_507FDBE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_breadcheck" x="576" y="544" name="inst_3EB777B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_breadcheck" x="1168" y="384" name="inst_3EB777B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_health" x="1056" y="64" name="inst_45DC0F90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bananacheck" x="384" y="544" name="inst_E7EF9C77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+
+    <instance objName="obj_bananackeck" x="1168" y="192" name="inst_E7EF9C77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+
     <instance objName="obj_score" x="1056" y="32" name="inst_F3A3D9DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_time" x="1056" y="96" name="inst_F40EE0A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ketchup" x="96" y="192" name="inst_F60788D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ketchup" x="160" y="192" name="inst_7D1EE5CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ketchup" x="224" y="192" name="inst_E85C59C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mustard" x="0" y="224" name="inst_2226A6B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mustard" x="0" y="288" name="inst_806F6875" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mustard" x="0" y="352" name="inst_CE51ED63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mustard" x="0" y="416" name="inst_362DF05E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ketchup" x="288" y="192" name="inst_859EE96B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_banana" x="480" y="192" name="inst_2FF85539" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bread" x="800" y="448" name="inst_D42F1FF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cereal" x="800" y="192" name="inst_E16BCE2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cereal" x="992" y="192" name="inst_3D54D275" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cereal" x="928" y="192" name="inst_0965EE08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cereal" x="864" y="192" name="inst_0079B112" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_banana" x="416" y="192" name="inst_49D9290B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
