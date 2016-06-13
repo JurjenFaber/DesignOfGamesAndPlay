@@ -39,47 +39,78 @@ show_debug_message(pick);
 
 
 switch (pick){    
-    /*case "obj_banana":
+    case "obj_banana":
         global.bananas-=1;
+        show_debug_message(global.bananas);
         if(global.bananas = 0){
-            global.points1+=500;
+            global.points+=500;
             obj_bananackeck.visible = true;
         } else if(global.bananas &lt; 0 ){
-            global.points1-=250;
+            global.points-=250;
         } else {
-            global.points1+=500;
-        }
-    break;*/
-    case "obj_banana":
-        switch (roomname){
-            case "rm_level1":
-                global.bananas1-=1;
-                show_debug_message(global.bananas1);
-                if(global.bananas1 = 0){
-                    global.points1+=500;
-                    obj_bananackeck.visible = true;
-                } else if(global.bananas1 &lt; 0 ){
-                    global.points1-=250;
-                } else {
-                    global.points1=500;
-                }
-            break;
-            case "rm_level3":
-                global.bananas3-=1;
-                show_debug_message(global.bananas3);                
-                if(global.bananas3 = 0){
-                    global.points3+=500;
-                    obj_bananackeck.visible = true;
-                } else if(global.bananas3 &lt; 0 ){
-                    global.points3-=250;
-                } else {
-                    global.points3+=500;
-                }
-            break;
-            default: show_debug_message("not found");
+            global.points+=500;
         }
     break;
     case "obj_carrots":
+        global.carrots-=1;
+        if(global.carrots = 0){
+            global.points+=500;
+            obj_carrotscheck.visible = true;
+        } else if(global.carrots &lt; 0 ){
+            global.points-=250;
+        } else {
+            global.points+=500;
+        }
+    break;
+    case "obj_bread":
+        global.bread-=1;
+        if(global.bread = 0){
+            global.points+=500;
+            obj_breadcheck.visible = true;
+        } else if(global.bread &lt; 0 ){
+            global.points-=250;
+        } else {
+            global.points+=500;
+        }
+    break;
+    case "obj_cereal":
+        global.cereal-=1;
+        if(global.cereal = 0){
+            global.points+=500;
+            obj_cerealcheck.visible = true;
+        } else if(global.cereal &lt; 0 ){
+            global.points-=250;
+        } else {
+            global.points+=500;
+        }
+    break;
+    case "obj_ketchup":
+        global.ketchup-=1;
+        if(global.ketchup = 0){
+            global.points+=500;
+            obj_ketchupcheck.visible = true;
+        } else if(global.ketchup &lt; 0 ){
+            global.points-=250;
+        } else {
+            global.points+=500;
+        }
+    break;
+    case "obj_mustard":
+        global.mustard-=1;
+        if(global.mustard = 0){
+            global.points+=500;
+            obj_mustardcheck.visible = true;
+        } else if(global.mustard &lt; 0 ){
+            global.points-=250;
+        } else {
+            global.points+=500;
+        }
+    break;
+        default: show_debug_message("Not found");
+    break;
+}
+    
+    /*case "obj_carrots":
         switch (roomname){
             case "rm_level1":
                 global.carrots1-=1;

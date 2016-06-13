@@ -10,7 +10,15 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>global.points = 0;
+global.health = 200;
+
+global.bananas = 1;
+global.carrots = 2;
+global.bread = 3;
+global.cereal = 1;
+global.ketchup = 0;
+global.mustard = 0;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
