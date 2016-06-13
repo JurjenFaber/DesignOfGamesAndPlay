@@ -86,16 +86,15 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
-    <room>rooms\rm_level1</room>
-    <room>rooms\rm_grocery_list1</room>
     <room>rooms\rm_grocery_list2</room>
-    <room>rooms\rm_level2</room>
-    <room>rooms\rm_options</room>
-    <room>rooms\rm_welldone</room>
-    <room>rooms\rm_gameover</room>
     <room>rooms\rm_level3</room>
+    <room>rooms\rm_welldone</room>
+    <room>rooms\rm_grocery_list1</room>
+    <room>rooms\rm_level1</room>
+    <room>rooms\rm_gameover</room>
     <room>rooms\rm_credits</room>
     <room>rooms\rm_leaderboards</room>
+    <room>rooms\rm_options</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
