@@ -83,6 +83,7 @@
     <object>objects\obj_welldone</object>
     <object>objects\obj_gameover</object>
     <object>objects\obj_groceries</object>
+    <object>objects\obj_highscores</object>
     <object>objects\obj_time</object>
   </objects>
   <rooms name="rooms">
