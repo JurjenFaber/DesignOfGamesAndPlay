@@ -38,6 +38,7 @@
     <sprite>sprites\spr_leaderboards</sprite>
     <sprite>sprites\spr_startmenu</sprite>
     <sprite>sprites\spr_gameover</sprite>
+    <sprite>sprites\spr_credits_screen</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
@@ -55,8 +56,7 @@
     <object>objects\obj_shelf1</object>
     <object>objects\obj_start</object>
     <object>objects\obj_counter</object>
-    <object>objects\obj_wall</object>
-    <object>objects\obj_bananackeck</object>
+    <object>objects\obj_bananacheck</object>
     <object>objects\obj_carrotscheck</object>
     <object>objects\obj_carrots</object>
     <object>objects\obj_score</object>
@@ -87,6 +87,7 @@
     <object>objects\obj_time</object>
     <object>objects\obj_levelscore</object>
     <object>objects\obj_totalscore</object>
+    <object>objects\obj_credits_screen</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
